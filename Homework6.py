@@ -5,6 +5,8 @@ print(my_dict.get('vvv'))
 my_dict['Bob'] = 65983
 my_dict['Karl'] = 239856
 del my_dict['Mark']
+a = my_dict.pop('Kirill')
+print(a)
 print(my_dict)
 my_set = {8, 2.5, 'kkk', 8, True, 2, 2.5}
 print(my_set)
