@@ -1,8 +1,8 @@
-a = int(input('Первое число: '))
-b = int(input('Второе число: '))
-c = int(input('Третье число: '))
-if a==b==c:
+first = int(input('Первое число: '))
+second = int(input('Второе число: '))
+therd = int(input('Третье число: '))
+if first==second==therd:
     print(3)
-elif a==b or a==c or b==c:
+elif first==second or first==therd or second==thedrd:
     print(2)
 else: print(0)
