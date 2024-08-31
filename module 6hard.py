@@ -65,7 +65,6 @@ class Circle(Figure):
         Figure.__init__(self, __color, *__sides)
         self.__radius = self.get_radius()
 
-
     def get_square(self):
         return print(math.pi * self.__radius * 2)
 
